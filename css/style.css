@@ -1,0 +1,58 @@
+.page-header {
+  margin-right: 2vw;
+  margin-left: 2vw;
+  color: orange;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 50%;
+}
+.bio-container {
+  float: left;
+}
+
+.mikeImg,.ericImg {
+  display: flex;
+  text-align: left;
+
+}
+
+p {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+#mikeBio, #ericBio {
+  display: inline-block;
+  float: right;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.work-page {
+  border-top: 8px solid red;
+  color: white;
+  background-image: url('http://i.imgur.com/93Sczd7.jpg');
+  background-size: cover;
+  background-position: bottom-left;
+}
+
+.list-work {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li:hover {
+  cursor: pointer;
+}
